@@ -1,6 +1,10 @@
 ﻿using ClubAdministration.Core.Contracts;
+using ClubAdministration.Core.DataTransferObjects;
 using ClubAdministration.Core.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace ClubAdministration.Persistence
 {
@@ -28,6 +32,9 @@ namespace ClubAdministration.Persistence
             }
                 
         }
+
+
+       
 
     }
 }
